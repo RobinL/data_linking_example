@@ -1,0 +1,4 @@
+FROM mamonu/moj-spark-jovyan:baseenv
+RUN pip install graphframes
+ADD . /myfiles
+WORKDIR /myfiles
